@@ -14,10 +14,11 @@ depois: yes e <enter>
 
 npm install
 
+npm start
 
 Frontend:
 
-npm start
+npm run dev
 
 
 Backend:
