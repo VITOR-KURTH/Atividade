@@ -6,10 +6,10 @@ const app = express();
 
 // Configuração do pool de conexão com o banco de dados
 const pool = new Pool({
-    user: 'postgres', // Substitua pelo seu usuário do PostgreSQL (verifique no seu computador na hora da prova!)
+    user: 'postgres', // Substitua pelo seu usuário do PostgreSQL (verifique no seu computador na hora da prova!):pode ser postgres ou local
     host: 'localhost',
     database: 'tarefasKanban', // Nome da sua database
-    password: '12345', // Substitua pela sua senha
+    password: '12345', // Substitua pela sua senha: pode ser 12345 ou senai
     port: 5432, // Porta padrão do PostgreSQL
 });
 
